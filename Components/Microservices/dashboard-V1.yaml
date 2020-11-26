@@ -1,0 +1,4 @@
+dashboard-V1:
+        appConfig: icra-gateway
+        clusterNameExpression: new String("default")
+        impl: io.spring.platform.netflix.turbine.EurekaInstanceDiscovery

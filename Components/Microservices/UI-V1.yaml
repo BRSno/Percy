@@ -1,0 +1,9 @@
+UI-V1:
+        artifactBuildName: ui
+        artifactUrl: '/httpAuth/app/rest/builds/id:7588/artifacts/content/frontNXT-1.029.jar'
+        componentName: frontNXT
+        componentOwnerTeam: frontend
+        eolAnnounced: 'false'
+        eolDate: ''
+        versionLatestBuild: '29'
+        versionNbr: '1.0'

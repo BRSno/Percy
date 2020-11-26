@@ -1,0 +1,8 @@
+{
+  "authorisation-V1": {
+    "fqdn": "server04.eldor.com",
+    "httpPort": "80",
+    "IP": "172.92.0.4",
+    "OS": "linux"
+  }
+}
