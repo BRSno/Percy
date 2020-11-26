@@ -14,5 +14,12 @@ pipeline {
       }
     }
 
+    stage('Deploy') {
+      steps {
+        sleep 3
+        echo 'Deploy complete'
+      }
+    }
+
   }
 }
