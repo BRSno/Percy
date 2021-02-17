@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        git(url: 'https://github.com/BRSno/Percy', branch: 'main', poll: true)
+        git(url: 'https://github.com/BRSno/Percy', branch: 'main', poll: false)
       }
     }
 
