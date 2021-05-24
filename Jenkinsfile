@@ -34,7 +34,8 @@ node {
    
    stage('UAT Test') {
        snDevOpsStep(enabled:true)
-       junit 'target/surefire-reports/*.xml'
+      // junit 'target/surefire-reports/*.xml'
+       junit allowEmptyResults: true, testResults: 'target/surefire-reports/*.xml'
        
 
    }
