@@ -43,7 +43,7 @@ node {
       snDevOpsStep(enabled:true)
       snDevOpsPackage(name: "${pkgName}-${env.BUILD_NUMBER}", artifactsPayload: """{"artifacts":[{"name": "${artifactname}", "version": "1.${env.BUILD_NUMBER}", "repositoryName": "${repoName}"}], "branchName":"main"}""")
       snDevOpsChange()
-      sh "mv  target/percy.war target/dev.war"
+     // sh "mv  target/percy.war target/dev.war"
    }
    
 }
